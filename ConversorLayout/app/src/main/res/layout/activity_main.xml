@@ -34,5 +34,11 @@
         android:id="@+id/textResultado"
         android:gravity="center"
         android:text="R$"/>
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textResultado"
+        android:gravity="center"
+        android:text="Thiago Leal / 1204"/>
 </LinearLayout>
