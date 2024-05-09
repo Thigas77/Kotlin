@@ -9,7 +9,7 @@ class PedidoActivity : AppCompatActivity() {
     private lateinit var binding: ActivityPedidoBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
+        
         binding = ActivityPedidoBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         
@@ -26,8 +26,10 @@ class PedidoActivity : AppCompatActivity() {
                 "Salada: $quantidadeSalada Preço: ${quantidadeSalada*10}\n" +
                 "Hamburguer: $quantidadeHamburguer Preço: ${quantidadeHamburguer*12}\n"
 
-
         binding.textResumo.text = texto
+    }
+}
+
     }
 }
 
