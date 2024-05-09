@@ -10,14 +10,22 @@ import kotlinx.coroutines.delay
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
             val i = intent
-            val j = Intent(this, PedidoActivity:: class.java)
+            
+            val j = Intent(this, PedidoActivity::class.java)
+            
             j.putExtras(i)
+            
             startActivity(j)
-        }, 2000)
+        }, 2000) 
+    }
+}
+
+
 
 
 
