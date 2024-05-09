@@ -19,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
             val username = binding.editUsername.text.toString().trim()
             val password = binding.editPassword.text.toString().trim()
 
-            if (username.equals("Eduardo") && password.equals("número7")) {
+            if (username.equals("Thiago") && password.equals("número22")) {
                 val i = Intent(this, MainActivity::class.java)
                 i.putExtra("username", username)
                 startActivity(i)
